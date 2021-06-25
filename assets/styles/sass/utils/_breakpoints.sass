@@ -1,0 +1,8 @@
+$tab-width: 576px
+$desktop-width: 1200px
+@mixin tab
+    @media screen and ( min-width: #{$tab-width} )
+        @content
+@mixin desktop
+    @media screen and ( min-width: #{$desktop-width} )
+        @content

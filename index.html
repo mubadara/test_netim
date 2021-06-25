@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test netim</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="assets/styles/style.min.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/img/logo.jpg" alt="logo">
+        <nav class="navbar">
+            <span class="navbar__burger" id="BURGER">&#9776;</span>
+            <ul class="navbar__list">
+                <span class="close">X</span>
+                <li class="navbar__list__items">Menu 1
+                    <ul class="navbar__list__items__submenu hidden">
+                        <li class="navbar__list__submenu__items">Sous-menu 1</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 2</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 3</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 4</li>
+                    </ul>
+                </li>
+                <li class="navbar__list__items">Menu 2
+                    <ul class="navbar__list__items__submenu hidden">
+                        <li class="navbar__list__submenu__items">Sous-menu 1</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 2</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 3</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 4</li>
+                    </ul>
+                </li>
+                <li class="navbar__list__items">Menu 3
+                    <ul class="navbar__list__items__submenu hidden">
+                        <li class="navbar__list__submenu__items">Sous-menu 1</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 2</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 3</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 4</li>
+                    </ul>
+                </li>
+                <li class="navbar__list__items">Menu 4
+                    <ul class="navbar__list__items__submenu hidden">
+                        <li class="navbar__list__submenu__items">Sous-menu 1</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 2</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 3</li>
+                        <li class="navbar__list__submenu__items">Sous-menu 4</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <form action="/" class="form">
+            <input class="form__input" id="i1" placeholder="input 1" type="text">
+            <input class="form__input" id="i2" placeholder="input 2" type="text">
+            <input class="form__input" id="i3" placeholder="input 3" type="text">
+            <input class="form__input" id="i4" placeholder="input 4" type="text">
+            <input class="form__input" id="i5" placeholder="input 5" type="text">
+            <input class="form__input" id="i6" placeholder="input 6" type="text">
+            <input class="form__input" id="i7" placeholder="input 7" type="text">
+        </form>
+        <div class="content">
+            <ul class="content__list">
+                <li class="content__list__item">
+                    <img 
+                    data-src="./assets/img/image1M.jpg 576w, ./assets/img/image1T.jpg 1200w, ./assets/img/image1D.jpg 1600w"
+                    class="content__img lazy_load"
+                    alt="img 1"/>
+                </li>
+                <li class="content__list__item">
+                    <img
+                    data-src="./assets/img/image2M.jpg 576w, ./assets/img/image2T.jpg 1200w, ./assets/img/image2D.jpg 1600w"
+                     class="content__img lazy_load" alt="img 2" />
+                    </li>
+                <li class="content__list__item">
+                    <img
+                    data-src="./assets/img/image3M.jpg 576w, ./assets/img/image3T.jpg 1200w, ./assets/img/image3D.jpg 1600w"
+                    class="content__img lazy_load" alt="img 3" />
+                </li>
+            </ul>
+        </div>
+        <footer class="footer">
+            Par BineauR pour Netim
+        </footer>
+        <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
